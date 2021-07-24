@@ -1,0 +1,10 @@
+WitherMonster:
+  Enable: true
+  Allow:
+    - world_nether
+    - world_the_end
+
+EnderDragonMonster:
+  Enable: true
+  Allow:
+    - world_the_end

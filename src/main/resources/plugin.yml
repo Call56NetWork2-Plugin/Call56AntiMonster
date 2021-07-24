@@ -1,0 +1,20 @@
+name: Call56AntiMonster
+version: ${project.version}
+main: com.github.kinoko2k.antimonster.Antimonster
+api-version: 1.17
+authors: [ Kinoko_2K ]
+description: Call56AntiMonster
+
+commands:
+  antimonster:
+    description: '/Antimonster reload - Reload the plugin'
+    aliases: bbw
+
+permissions:
+  antimonster.*:
+    antimonster.allowdragon: true
+    antimonster.reload: true
+   antimonster.allowdragon:
+    default: op
+  antimonster.reload:
+    default: op
